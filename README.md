@@ -60,7 +60,7 @@ Chat_App/
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/vnv2315/Chat-App.git
 cd Chat_App
 ```
 
@@ -156,24 +156,6 @@ The server will start on `http://localhost:5000` (or the port specified in your 
   timestamps: true
 }
 ```
-
-## Recent Bug Fixes
-
-The following bugs have been identified and fixed:
-
-1. **Fixed undefined variables in login function** (`userController.js`)
-   - Fixed `userData` → `user` in password comparison
-   - Fixed `newUser` → `user` in token generation
-   - Fixed `userData` → `user` in response
-
-2. **Fixed missing file extension** (`messageController.js`)
-   - Added `.js` extension to User model import
-
-3. **Fixed route path** (`messageRoutes.js`)
-   - Added missing `/` in mark message route
-
-4. **Added environment template**
-   - Created `env.example` file for easy setup
 
 ## Security Features
 
